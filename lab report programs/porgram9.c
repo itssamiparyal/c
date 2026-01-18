@@ -6,10 +6,10 @@ int main() {
     float price_dozen, price_one, total_price;
     int n;
 
-    printf("Enter price of a dozen mangoes: ");
+    printf("Enter price of a dozen mangoes:\n");
     scanf("%f", &price_dozen);
 
-    printf("Enter number of mangoes: ");
+    printf("Enter number of mangoes:\n");
     scanf("%d", &n);
 
     price_one = price_dozen / 12;

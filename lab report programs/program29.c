@@ -6,7 +6,7 @@ SATISFACTORY, or FAIL if the user enters A, B, C, D, or E respectively.*/
 int main() {
     char grade;
 
-    printf("Enter grade (A, B, C, D, E): ");
+    printf("Enter grade (A, B, C, D, E):\n");
     scanf(" %c", &grade);  // Note the space before %c to consume any newline
 
     switch (grade) {

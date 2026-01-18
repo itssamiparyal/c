@@ -5,7 +5,7 @@
 int main() {
     float amount, discount = 0, final_amount;
 
-    printf("Enter purchased amount: ");
+    printf("Enter purchased amount:\n");
     scanf("%f", &amount);
 
     if (amount >= 1000) {

@@ -9,7 +9,7 @@ int main() {
     float balance, interest, simple_interest;
     int time = 1; // assuming time = 1 year for simple interest calculation
 
-    printf("Enter account balance: ");
+    printf("Enter account balance:\n");
     scanf("%f", &balance);
 
     // Determine interest rate based on balance

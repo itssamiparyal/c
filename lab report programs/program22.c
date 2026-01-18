@@ -10,7 +10,7 @@
 int main() {
     float salary, tax;
 
-    printf("Enter gross salary: ");
+    printf("Enter gross salary:\n");
     scanf("%f", &salary);
 
     if (salary < 10000) {

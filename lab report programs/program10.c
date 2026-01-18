@@ -5,7 +5,7 @@
 int main() {
     float pounds, kilograms;
 
-    printf("Enter weight in pounds: ");
+    printf("Enter weight in pounds:\n ");
     scanf("%f", &pounds);
 
     kilograms = pounds * 0.453592;

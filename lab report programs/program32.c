@@ -15,8 +15,8 @@ customer.*/
 #include <stdio.h>
 
 int main() {
-    int choice; // 1 for Mill cloth, 2 for Handloom items
-    float amount, discount = 0, net_amount;
+    int choice; // 1 = Mill cloth, 2 = Handloom items
+    float amount, discount = 0.0, net_amount;
 
     printf("Enter purchase amount: ");
     scanf("%f", &amount);
@@ -25,24 +25,25 @@ int main() {
     scanf("%d", &choice);
 
     switch(choice) {
+
         case 1: // Mill cloth
-            if(amount <= 100) {
+            if (amount <= 100) {
                 discount = 5;
-            } else if(amount <= 200) {
-                discount = 5;
-            } else if(amount <= 300) {
+            } else if (amount <= 200) {
                 discount = 7.5;
-            } else {
+            } else if (amount <= 300) {
                 discount = 10;
+            } else {
+                discount = 15;
             }
             break;
 
         case 2: // Handloom items
-            if(amount <= 100) {
-                discount = 0;
-            } else if(amount <= 200) {
+            if (amount <= 100) {
+                discount = 5;
+            } else if (amount <= 200) {
                 discount = 7.5;
-            } else if(amount <= 300) {
+            } else if (amount <= 300) {
                 discount = 10;
             } else {
                 discount = 15;

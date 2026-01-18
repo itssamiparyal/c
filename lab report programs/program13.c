@@ -5,7 +5,7 @@
 int main() {
     int num, sum = 0;
 
-    printf("Enter a 5-digit positive integer: ");
+    printf("Enter a 5-digit positive integer:\n");
     scanf("%d", &num);
 
     

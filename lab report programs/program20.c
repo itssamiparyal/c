@@ -12,7 +12,7 @@ int main() {
     int math, physics, chemistry;
     int total, total_mp;
 
-    printf("Enter marks in Mathematics, Physics, and Chemistry: ");
+    printf("Enter marks in Mathematics, Physics, and Chemistry:\n");
     scanf("%d %d %d", &math, &physics, &chemistry);
 
     total = math + physics + chemistry;

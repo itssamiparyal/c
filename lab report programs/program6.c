@@ -6,7 +6,7 @@
 int main() {
     double a, b, result;
 
-    printf("Enter base and exponent: ");
+    printf("Enter base and exponent:\n ");
     scanf("%lf %lf", &a, &b);
 
     result = pow(a, b);

@@ -5,7 +5,7 @@
 int main() {
     int num;
 
-    printf("Enter an integer: ");
+    printf("Enter an integer:\n");
     scanf("%d", &num);
 
     if (num % 2 == 0) {

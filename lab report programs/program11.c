@@ -6,7 +6,7 @@ int main() {
     float dollars, nepaliRupees;
     float rate = 132.0;  
 
-    printf("Enter amount in U.S. dollars: ");
+    printf("Enter amount in U.S. dollars:\n");
     scanf("%f", &dollars);
 
     nepaliRupees = dollars * rate;

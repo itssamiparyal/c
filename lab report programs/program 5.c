@@ -6,7 +6,7 @@
 int main() {
     float num, result;
 
-    printf("Enter a number: ");
+    printf("Enter a number:\n ");
     scanf("%f", &num);
 
     result = sqrt(num);

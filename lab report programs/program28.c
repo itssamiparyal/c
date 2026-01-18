@@ -12,7 +12,7 @@ int main() {
     int pass = 1;  // assume student has passed
 
     // Input marks for 5 subjects
-    printf("Enter marks for 5 subjects: ");
+    printf("Enter marks for 5 subjects:\n");
     for(i = 0; i < 5; i++) {
         scanf("%d", &marks[i]);
         if(marks[i] < 45) {

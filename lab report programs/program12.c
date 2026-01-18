@@ -6,7 +6,7 @@
 int main() {
     int num, reversed = 0;
 
-    printf("Enter a six-digit integer: ");
+    printf("Enter a six-digit integer:\n");
     scanf("%d", &num);
 
     while (num != 0) {

@@ -21,10 +21,10 @@ int main() {
     float deposit, interest_rate, interest, total_amount;
     int years;
 
-    printf("Enter deposit amount: ");
+    printf("Enter deposit amount:\n");
     scanf("%f", &deposit);
 
-    printf("Enter number of years: ");
+    printf("Enter number of years:\n");
     scanf("%d", &years);
 
     // Determine interest rate based on policy

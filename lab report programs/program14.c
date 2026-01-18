@@ -6,7 +6,7 @@ int main() {
     int total_mm;
     int meters, centimeters, millimeters;
 
-    printf("Enter length in millimeters: ");
+    printf("Enter length in millimeters:\n");
     scanf("%d", &total_mm);
 
     meters = total_mm / 1000;               // 1 meter = 1000 mm

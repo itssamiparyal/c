@@ -5,7 +5,7 @@
 int main() {
     float num1, num2, num3, largest;
 
-    printf("Enter three numbers: ");
+    printf("Enter three numbers:\n");
     scanf("%f %f %f", &num1, &num2, &num3);
 
     largest = num1;  // assume num1 is largest

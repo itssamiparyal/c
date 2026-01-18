@@ -7,7 +7,7 @@
 int main() {
     float sales, commission;
 
-    printf("Enter monthly sales: ");
+    printf("Enter monthly sales:\n");
     scanf("%f", &sales);
 
     if (sales < 10000) {
