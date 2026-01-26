@@ -4,9 +4,17 @@ int main(){
     printf("Enter the value of n:\n");
     scanf("%d",&n);
     //loop
+    printf("sum = ");
     for (i = 1; i <= n; i++){
         sum = sum + i;
+        if(i<n){
+            printf("%d + ",i);
+        }
+        else{
+            printf("%d",i);
+        }
+        
     }
-    printf("Sumation of natural num = %d",sum);
+    printf(" = %d",sum);
     return 0;
 }
