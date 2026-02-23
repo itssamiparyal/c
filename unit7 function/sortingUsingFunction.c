@@ -21,7 +21,7 @@ void sorting(int a[],int n){
         printf("%d ",a[i]);
     }
 }
-    
+
 int main(){
     int a[10],n;
     printf("enter the size of an array:\n");
