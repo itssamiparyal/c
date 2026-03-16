@@ -5,3 +5,4 @@
 // malloc() -> malloc(200); means 200 bytes memory allocated in runtime.
 // calloc() -> calloc(5,200) means 5 blocks each 200 bytes allocated in dynamic time.
 // recalloc() ->
+// free
